@@ -1,1 +1,1 @@
-# Pun-generation
+# QA jokes generation
