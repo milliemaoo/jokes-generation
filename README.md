@@ -10,7 +10,7 @@ Refer to toolkits.py to get your own keywords for test data.
 
 You can train and inference by train.py and test.py, change the argument values in your own need.
 
-## example
+## Example
 
     q: What will happen if you went inside a black hole?  
     a: I don't know either. It must be out of this world.    
