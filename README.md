@@ -22,4 +22,4 @@ Prepare your query, reply, and cue words file, with one instance per line.
 
 [seq2seqchatbot](https://github.com/ywk991112/pytorch-chatbot)
 
-It's a preliminary version.
+It's a preliminary version now.
