@@ -81,9 +81,9 @@ def train(load_pretrain,src_voc,tag_voc,pair_batches,n_iteration,learning_rate,b
 	"""
 	checkpoint = None
 	# build the model
-	source_embedding = nn.Embedding(src_voc.n_words,hidden_size)
+	source_embedding = nn.Embedding(src_voc.n_words,input_size)
 	source_embedding.weight = nn.Parameter(src_embeddings)
-	target_embedding = nn.Embedding(tag_voc.n_words,hidden_size)
+	target_embedding = nn.Embedding(tag_voc.n_words,input_size)
 	target_embedding.weight = nn.Parameter(tag_embeddings)
 
 	#whether fine-tune embedding
