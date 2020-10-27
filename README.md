@@ -3,10 +3,11 @@ This is a seq2seq question-answer jokes generation inspired by [seq2bf](http://c
 
 ## Corpus
 You can get the corpus from [QA jokes](https://www.kaggle.com/bfinan/jokes-question-and-answer)  
-Prepare your query, reply, and cue words file; one instance per line.
+Prepare your query, reply, and cue words file, with one instance per line.
 
 ## Usage
 You can train and inference by start_train.py and start_test.py, change the argument values in your own need.
+
 Note in the test, the post is entered by terminal, each post need a keyword which is decided by yourself, you can also refer to toolkits.py to automatically select a keyword based on post sentence.
 
 ## Example
