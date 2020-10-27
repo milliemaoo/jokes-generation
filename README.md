@@ -6,18 +6,19 @@ You can get the corpus from [QA jokes](https://www.kaggle.com/bfinan/jokes-quest
 Prepare your query, reply, and cue words file; one instance per line.
 
 ## Usage
-Refer to toolkits.py to get your own keywords for test data.
-
-You can train and inference by train.py and test.py, change the argument values in your own need.
+You can train and inference by start_train.py and start_test.py, change the argument values in your own need.
+Note in the test, the post is entered by terminal, each post need a keyword which is decided by yourself, you can also refer to toolkits.py to automatically select a keyword based on post sentence.
 
 ## Example
 
-    q: What will happen if you went inside a black hole?  
-    a: I don't know either. It must be out of this world.    
+    q: What will happen if you went inside a black hole?    
     k: world
+    a: I don't know either. It must be out of this world.  
 
 ## References
 
 [Seq2BF for Dialogue Generation](https://github.com/MaZhiyuanBUAA/Seq2BFforDialogueGeneration)
 
-[seq2seqchatbot](https://github.com/fancyerii/blog-codes/tree/master/chatbot)
+[seq2seqchatbot](https://github.com/ywk991112/pytorch-chatbot)
+
+It's a preliminary version.
